@@ -1,7 +1,6 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
-    contact,
     css,
     estate,
     express,
@@ -9,72 +8,27 @@ import {
     github,
     html,
     javascript,
-    linkedin,
-    mongodb,
-    motion,
     mui,
     nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    leetcode,
+    codeforces,
+    codechef,
+    sql,
+    cpp
 } from "../assets/icons";
 
-export const skills = [
+export const technologies = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
     },
     {
@@ -83,30 +37,88 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
+        imageUrl: mui,
+        name: "Material-UI",
         type: "Frontend",
     },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
+    }
+];
+
+export const languages = [
+    {
+        imageUrl: cpp,
+        name: "C++",
+        type: "Programming",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
     },
     {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Database",
     }
+    
+];
+
+export const coding = [
+    {
+        imageUrl: github,
+        name: "GitHub",
+        link: "https://github.com/rohitthapa2320",
+    },
+    {
+        imageUrl: leetcode,
+        name: "Leetcode",
+        link: "https://leetcode.com/u/thaparikki/",
+    },
+    {
+        imageUrl: codechef,
+        name: "Codechef",
+        link: "https://www.codechef.com/users/thaparikki",
+    },
+    {
+        imageUrl: codeforces,
+        name: "Codeforces",
+        link: "https://codeforces.com/profile/thaparikki",
+    }
+    
 ];
 
 export const experiences = [
@@ -164,23 +176,6 @@ export const experiences = [
     },
 ];
 
-export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
-];
 
 export const projects = [
     {
