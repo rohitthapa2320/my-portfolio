@@ -12,9 +12,8 @@ const Projects = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>A Software Enginner with experience of two years.
-          A fervent person who loves to explore new horizons of knowledge and believes in 
-          improving, learning and growing day by day.
+        <p> I have actively engaged in various projects that have allowed me to demonstrate my skills, creativity, and problem-solving abilities.
+          These projects showcase my expertise in full stack development , cloud and testing.
         </p>
       </div>
 

@@ -13,20 +13,20 @@ const InfoBox = ({text, link, btnText}) => (
 );
 
 const renderContent = {
-  1: (<h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-    Hi, I am <span className="font-semibold">Rohit Thapa</span>
-    <br />
-    A Software Engineer from India
-  </h1>),
-  2: (<InfoBox
-        text="An Enginner with two years of experience"
+  1: (<InfoBox
+        text="Hi, I am Rohit Thapa👋- A Software Engineer"
         link="/about"
-        btnText="Learn More"
+        btnText="More About Me!"
+     />),
+  2: (<InfoBox
+        text="Have two years of experience..."
+        link="/experience"
+        btnText="Know More"
      />),
   3: (<InfoBox
-        text="Worked on multiple projects. Have A Look"
+        text="Worked on multiple projects. Have A Look!"
         link="/projects"
-        btnText="Visit My Portfolio"
+        btnText="Visit Projects"
      />),
   4: (<InfoBox
         text="Lets get in touch if you have any query"

@@ -1,11 +1,9 @@
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import safe from './safe.png'
+import minutemen from './minutemen.png'
+import nsoft from './nsoft.png'
 
 export {
-    meta,
-    shopify,
-    starbucks,
-    tesla,
+    safe,
+    minutemen,
+    nsoft
 }

@@ -32,7 +32,7 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
-          <div className={`${!toggle ? 'hidden': 'flex'} p-4 orange-gradient absolute top-10 right-0 mx-2 my-3 min-w-[140px] z-10 rounded-xl`}>
+          <div className={`${!toggle ? 'hidden': 'flex'} p-4 absolute orange-gradient top-10 right-0 mx-2 my-3 min-w-[140px] z-10 rounded-xl backdrop-blur-lg`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               <li
                 onClick={() => {

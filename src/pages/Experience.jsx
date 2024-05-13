@@ -12,9 +12,11 @@ const Experience = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>A Software Enginner with experience of two years.
-          A fervent person who loves to explore new horizons of knowledge and believes in 
-          improving, learning and growing day by day.
+        <p>
+          With a solid foundation in Software Engineering field, I have accumulated valuable experience over the past two years. 
+          My journey has equipped me with a diverse skill set and a deep understanding of different technologies.
+          During this time, I have had the opportunity to work on various projects, collaborate with multidisciplinary teams, and solve complex problems. 
+          My experience has not only sharpened my technical abilities but also honed my communication and leadership skills, enabling me to drive successful outcomes.
         </p>
       </div>
 
@@ -50,7 +52,7 @@ const Experience = () => {
                   <ul className="my-5 list-disc ml-5 space-y-2">
                     {
                       experience.points.map((point, index) => (
-                        <li key={`experience-point-${index}`} className="text-black-500/50 font-normal pl-1 text-sm">
+                        <li key={`experience-point-${index}`} className="text-black-500 font-normal pl-1 text-sm">
                           {point}
                         </li>
                       ))

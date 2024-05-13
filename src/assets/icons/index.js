@@ -10,11 +10,7 @@ import react from './react.svg'
 import tailwindcss from './tailwindcss.svg'
 import mui from './mui.svg'
 import typescript from './typescript.svg'
-import car from './car.svg'
-import estate from './estate.svg'
 import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
@@ -23,6 +19,9 @@ import codeforces from './codeforces.svg'
 import codechef from './codechef.svg'
 import sql from './sql.svg';
 import cpp from './cpp.svg'
+import aws from './aws.svg'
+import jest from './jest.svg';
+import cypress from './cypress.svg'
 
 export {
     css,
@@ -37,11 +36,7 @@ export {
     react,
     tailwindcss,
     typescript,
-    car,
-    estate,
     pricewise,
-    snapgram,
-    summiz,
     threads,
     arrow,
     contact,
@@ -49,5 +44,8 @@ export {
     codeforces,
     codechef,
     sql,
-    cpp
+    cpp,
+    aws,
+    jest,
+    cypress
 }

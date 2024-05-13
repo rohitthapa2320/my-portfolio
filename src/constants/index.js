@@ -1,8 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { safe, minutemen, nsoft } from "../assets/images";
 import {
-    car,
     css,
-    estate,
     express,
     git,
     github,
@@ -13,8 +11,6 @@ import {
     nodejs,
     pricewise,
     react,
-    snapgram,
-    summiz,
     tailwindcss,
     threads,
     typescript,
@@ -22,7 +18,10 @@ import {
     codeforces,
     codechef,
     sql,
-    cpp
+    cpp,
+    aws,
+    jest,
+    cypress
 } from "../assets/icons";
 
 export const technologies = [
@@ -50,6 +49,21 @@ export const technologies = [
         imageUrl: git,
         name: "Git",
         type: "Version Control",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Cloud",
+    },
+    {
+        imageUrl: jest,
+        name: "Jest",
+        type: "Testing",
+    },
+    {
+        imageUrl: cypress,
+        name: "Cypress",
+        type: "Testing",
     },
     {
         imageUrl: mui,
@@ -123,56 +137,53 @@ export const coding = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Software Development Engineer - I",
+        company_name: "Safe Security",
+        icon: safe,
+        iconBg: "#02123c",
+        date: "June 2022 - November 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Developed a new Portfolio application SAFE Portfolio which provides an aggregated view and analytics of children companies to the Channel Partner. There are 5 customers currently which corresponds to '$300K' in revenue.",
+            "Collaborated with Platforms team to make the SAFE Enterprise application use Multi-tenant architecture instead of Single-tenant. This resulted in significant reduction in AWS cost from '$200' to '$15' per customer monthly.",
+            "Refactored SAFE Enterprise app by replacing PHP pages with React, enhancing loading speed, and introducing deep linking for improved user experience. Simultaneously, revamped automation tests and introduced new test cases to maintain high-quality delivery.",
+            "Revamped the entire UI and UX of SAFE Enterprise Application. Updated existing and added new components in OASIS.",
+        ]
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Software Engineer Intern",
+        company_name: "Safe Security",
+        icon: safe,
+        iconBg: "#02123c",
+        date: "March 2022 - May 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Acquired proficiency in new technologies like 'Typescript' and 'Storybook'.",
+            "Implemented new components Avatar and Checkbox for 'OASIS' -UI Library.",
+            "Promptly addressed and resolved assigned bugs, reviewed PRs to make continuous improvement in quality of the code and the application performance."
+        ]
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Frontend Developer Intern",
+        company_name: "MinuteMen Innovations Pvt. Ltd",
+        icon: minutemen,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "June 2021 - July 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Collaborated with UI Design team to design and develop the new User Interface, elevating the application's overall user experience", 
+            "Developed a fully automated End-to-End Testing system using the testing framework, Cypress. Enhancing the reliability and reduced testing time.",
+            "Optimized app performance by reducing bundle size through 'Code Splitting' and 'Lazy Loading'.",
+            "Developed the ADMINISTRATOR module in React and integrating it seamlessly with the backend via 'AJAX'."
+        ]
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Backend Developer Intern",
+        company_name: "NSoft Technologies",
+        icon: nsoft,
+        iconBg: "#dee2e6",
+        date: "April 2021 - May 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Developed a server using Node.js & Express.js that fetch real-time data from Exchange APIs (like Bitfinex) using web-sockets, perform calculations and decides whether to buy/sell a cryptocurrency.",
+            "Implemented Multithreading using Node.js core modules, 'worker_threads' and 'child_process'. Utilized 'sequelize' to define models and store data into 'MySQL'."
+        ]
     },
 ];
 
@@ -181,43 +192,15 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Track It - Budget Tracker',
+        description: 'This application is an expense budget tracker that allows users to keep track of their savings and manage their budget.',
+        link: 'https://track-savings.netlify.app',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Xylo Call',
+        description: 'A real-time video chat application that allows users to chat with their friends through video calls.',
+        link: 'https://xylo-call.netlify.app',
     }
 ];
